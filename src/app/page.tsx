@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className="homemain">
       <div  className="container">
-        <button onClick={() => router.push("/products")} className="discbtn">
+        <button onClick={() => router.push("/dashboard")} className="discbtn">
           Discover countries {searchicon}
         </button>
       </div>
